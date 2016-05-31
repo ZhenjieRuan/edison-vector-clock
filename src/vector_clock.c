@@ -38,7 +38,7 @@ int init_receiver() {
 
 	inet_ntop(AF_INET, &(sa->sin_addr), ip4, INET_ADDRSTRLEN);
 
-	printf("The IPv4 address is: %s\n", ip4);
+	printf("The IPv4 address of this board is: %s\n", ip4);
 
 	return 0;
 }
